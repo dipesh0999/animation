@@ -34,13 +34,13 @@
     height: 140%;
     background-color: rgb(255, 0, 140);
     position: absolute;
-    animation: animate 4s linear infinite;
+    animation: animate 3s linear infinite;
 }
 .box::after{
     content: '';
     position: absolute;
     background-color: rgb(25, 25, 123);
-    inset: 6px;
+    inset: 15px;
 }
 @keyframes animate
 {
